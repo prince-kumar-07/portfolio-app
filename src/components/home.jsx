@@ -1,7 +1,7 @@
 import "./home.css";
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
-import prince from '../assess/prince.png'
+import prince from '../assets/prince.png'
 
 
 export default function Home() {
