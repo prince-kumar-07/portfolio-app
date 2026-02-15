@@ -19,8 +19,37 @@
   gap: 44px;
 }
 
+/* Button container */
+.projects-btn-container {
+  text-align: center;
+  margin-top: 160px;
+}
+
+/* Button style */
+.see-all-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #020617;
+  background: #00f5ff;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.see-all-btn:hover {
+  background: #00c4cc;
+  transform: translateY(-3px);
+}
+
+/* Mobile */
 @media (max-width: 768px) {
   .projects {
     padding: 80px 24px;
+  }
+
+  .projects-heading {
+    font-size: 32px;
   }
 }

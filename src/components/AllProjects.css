@@ -1,0 +1,41 @@
+.all-projects {
+  padding: 120px 60px;
+  background: #020617;
+  min-height: 100vh;
+  color: white;
+}
+
+.all-projects-heading {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.all-projects-back {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.back-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #00f5ff, #6366f1);
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  transform: translateY(-3px);
+}
+
+.all-projects-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 44px;
+}

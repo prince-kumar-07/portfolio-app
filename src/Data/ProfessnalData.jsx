@@ -77,7 +77,7 @@ export const experiences = [
   },
 ]
 
-export const projects = [
+export const TopProjects = [
   {
     title: "Weather Application",
     description:
@@ -140,3 +140,24 @@ export const socialLinks = {
   leetcode: "",
   codechef: ""
 };
+
+export const Projects = [
+  {
+    title: "Weather Application",
+    description: "Real-time weather app using API",
+    tech: ["React", "API", "CSS"],
+    link: "#"
+  },
+  {
+    title: "Todo List",
+    description: "CRUD task management system",
+    tech: ["React", "Node", "MongoDB"],
+    link: "#"
+  },
+  {
+    title: "Video Streaming App",
+    description: "Video streaming platform",
+    tech: ["React", "Java", "REST"],
+    link: "#"
+  }
+];
