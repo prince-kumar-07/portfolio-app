@@ -1,0 +1,98 @@
+
+.experience-section {
+  padding: 140px 60px;
+  background: radial-gradient(circle at top, #020617, #000000);
+  color: white;
+  position: relative;
+}
+
+
+.experience-heading {
+  text-align: center;
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 100px;
+  background: linear-gradient(90deg, #22d3ee, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.experience-timeline {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+
+.experience-card {
+  padding: 36px;
+  border-radius: 26px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(22px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  position: relative;
+}
+
+
+.experience-card::before {
+  content: "";
+  position: absolute;
+  left: -14px;
+  top: 32px;
+  width: 4px;
+  height: calc(100% - 64px);
+  background: linear-gradient(180deg, #22d3ee, #6366f1);
+  border-radius: 4px;
+}
+
+
+.experience-header h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.company {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #e5e7eb;
+}
+
+.meta {
+  display: block;
+  margin-top: 6px;
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+
+.experience-points {
+  margin-top: 22px;
+  padding-left: 18px;
+}
+
+.experience-points li {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #d1d5db;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .experience-section {
+    padding: 100px 24px;
+  }
+
+  .experience-heading {
+    font-size: 38px;
+  }
+
+  .experience-card::before {
+    display: none;
+  }
+}

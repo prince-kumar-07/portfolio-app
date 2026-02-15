@@ -1,0 +1,26 @@
+.projects {
+  padding: 120px 60px;
+  background: #020617;
+  color: white;
+}
+
+.projects-heading {
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.projects-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 44px;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 80px 24px;
+  }
+}
