@@ -2,6 +2,7 @@ import "./home.css";
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 import prince from '../assets/prince.png'
+import { socialLinks } from "../Data/ProfessnalData";
 
 
 export default function Home() {
@@ -70,8 +71,8 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 1 }}
           >
-            <a href="#"><Github size={20} /></a>
-            <a href="#"><Linkedin size={20} /></a>
+            <a href={socialLinks.github}><Github size={20} /></a>
+            <a href={socialLinks.linkedin}><Linkedin size={20} /></a>
             <a href="mailto:prince-kumar12@outlook.com"><Mail size={20} /></a>
           </motion.div>
         </div>

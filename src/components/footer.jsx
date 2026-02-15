@@ -1,6 +1,5 @@
 import "./footer.css";
 import {
-  Github,
   Linkedin,
   Mail,
   Download,

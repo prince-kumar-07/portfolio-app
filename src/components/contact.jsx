@@ -4,7 +4,7 @@ import { Github, Linkedin, Mail } from "lucide-react";
 import {socialLinks} from '../Data/ProfessnalData'
 
 function Contact() {
-  console.log(socialLinks.github)
+  // console.log(socialLinks.github)
   return (
     <section className="contact-section" id="contact">
       <motion.div
