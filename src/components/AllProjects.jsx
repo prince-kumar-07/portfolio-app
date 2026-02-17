@@ -2,8 +2,12 @@ import "./AllProjects.css";
 import Projectcard from "../components/projectcard";
 import { Projects } from "../Data/ProfessnalData";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 function AllProjects() {
+   useEffect(() => {
+    document.title = "All Projects | Prince Kumar";
+  }, []);
   return (
     <section className="all-projects">
 

@@ -16,7 +16,13 @@ function Projectcard({ title, description, tech, link }) {
           ))}
         </div>
 
-        <a href={link} className="project-link">
+        <a
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-link"
+          aria-label="View project in new tab"
+        >
           View Project →
         </a>
       </div>

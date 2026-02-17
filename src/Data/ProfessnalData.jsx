@@ -79,26 +79,30 @@ export const experiences = [
 
 export const TopProjects = [
   {
-    title: "Weather Application",
+    title: "Quiz Application",
     description:
-      "Real-time weather application using external APIs with a clean and responsive UI.",
-    tech: ["React", "API", "CSS"],
-    link: "#",
+      "Interactive quiz application with dynamic questions, score tracking, and responsive UI for seamless user experience.",
+    tech: ["React", "JavaScript", "CSS"],
+    link: "https://prince-kumar-quiz-app.netlify.app/",
   },
+
+ {
+  title: "Weather Application",
+  description:
+    "Real-time weather application with automatic geolocation detection, live temperature, humidity, and condition updates using Weather API. Fully responsive and optimized for all devices.",
+  tech: ["JavaScript", "Weather API", "HTML", "CSS", "Geolocation API"],
+  link: "https://rainbow-begonia-bd7fc3.netlify.app/",
+},
+
   {
-    title: "Todo List",
-    description:
-      "Task management system with CRUD operations and smooth user experience.",
-    tech: ["React", "Node", "MongoDB"],
-    link: "#",
-  },
-  {
-    title: "Video Streaming App",
-    description:
-      "Scalable video streaming platform focusing on backend and REST architecture.",
-    tech: ["React", "Java", "REST"],
-    link: "#",
-  },
+  title: "Video Streaming Application",
+  description:
+    "Responsive video streaming platform with dynamic video rendering, component-based architecture, and optimized UI performance using React.",
+  tech: ["React", "JavaScript", "CSS", "Component Architecture"],
+  link: "https://prince-video-streaming.netlify.app/",
+},
+
+
 ];
 
 export const education = [
@@ -142,22 +146,78 @@ export const socialLinks = {
 };
 
 export const Projects = [
-  {
-    title: "Weather Application",
-    description: "Real-time weather app using API",
-    tech: ["React", "API", "CSS"],
-    link: "#"
+   {
+    title: "Quiz Application",
+    description:
+      "Interactive quiz application with dynamic questions, score tracking, and responsive UI for seamless user experience.",
+    tech: ["React", "JavaScript", "CSS"],
+    link: "https://prince-kumar-quiz-app.netlify.app/",
   },
+
+ {
+  title: "Weather Application",
+  description:
+    "Real-time weather application with automatic geolocation detection, live temperature, humidity, and condition updates using Weather API. Fully responsive and optimized for all devices.",
+  tech: ["JavaScript", "Weather API", "HTML", "CSS", "Geolocation API"],
+  link: "https://rainbow-begonia-bd7fc3.netlify.app/",
+},
+
   {
-    title: "Todo List",
-    description: "CRUD task management system",
-    tech: ["React", "Node", "MongoDB"],
-    link: "#"
-  },
-  {
-    title: "Video Streaming App",
-    description: "Video streaming platform",
-    tech: ["React", "Java", "REST"],
-    link: "#"
-  }
+  title: "Video Streaming Application",
+  description:
+    "Responsive video streaming platform with dynamic video rendering, component-based architecture, and optimized UI performance using React.",
+  tech: ["React", "JavaScript", "CSS", "Component Architecture"],
+  link: "https://prince-video-streaming.netlify.app/",
+},
+
+{
+  title: "Flipkart Clone – Product Listing & Cart",
+  description:
+    "Flipkart-inspired e-commerce application with dynamic product listing, cart management using Redux, and responsive UI built with React and modern component architecture.",
+  tech: ["React", "JavaScript", "CSS", "Redux", "State Management"],
+  link: "https://prince-video-streaming.netlify.app/",
+},
+{
+  title: "Random Password Generator",
+  description:
+    "Interactive password generator with customizable settings, real-time generation, and strong password creation using JavaScript. Clean UI and fully responsive design.",
+  tech: ["JavaScript", "HTML", "CSS", "DOM Manipulation"],
+  link: "https://tangerine-narwhal-b07b5a.netlify.app/",
+},
+{
+  title: "Music Player",
+  description:
+    "Modern web-based music player with dynamic audio playback, track controls, progress bar, and responsive UI using JavaScript and Audio API.",
+  tech: ["JavaScript", "HTML", "CSS", "Audio API", "DOM Manipulation"],
+  link: "https://rococo-basbousa-ab771a.netlify.app/",
+},
+
+{
+  title: "Cash Counter",
+  description:
+    "Interactive cash counter that computes optimal change distribution using JavaScript logic and dynamic DOM updates. Clean, responsive, and user-friendly interface.",
+  tech: ["JavaScript", "HTML", "CSS", "DOM Manipulation", "Logic Implementation"],
+  link: "https://bucolic-zabaione-e11346.netlify.app/",
+},
+
+{
+  title: "Todo List – React Application",
+  description:
+    "Task management application built with React featuring dynamic state handling, component-based architecture, and responsive user interface.",
+  tech: ["React", "JavaScript", "CSS", "Component Architecture", "State Management"],
+  link: "https://prince-todolist.netlify.app/",
+},
+
+{
+  title: "Quiz Application",
+  description:
+    "Dynamic quiz application with API-based question fetching, score tracking, and responsive UI. Built using JavaScript with efficient DOM manipulation.",
+  tech: ["HTML", "JavaScript", "CSS", "API Integration", "DOM Manipulation"],
+  link: "https://voluble-squirrel-c05dae.netlify.app/",
+},
+
+
+
+
+
 ];

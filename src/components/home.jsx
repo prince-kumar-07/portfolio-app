@@ -3,9 +3,14 @@ import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 import prince from '../assets/prince.png'
 import { socialLinks } from "../Data/ProfessnalData";
+import { useEffect } from "react";
 
 
 export default function Home() {
+  
+  useEffect(() => {
+    document.title = "Prince Kumar | Portfolio";
+  }, []);
   return (
     <section className="lux-home">
       {/* Ambient lights */}
