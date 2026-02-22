@@ -78,13 +78,26 @@ export const experiences = [
 ]
 
 export const TopProjects = [
+  
   {
-    title: "Quiz Application",
-    description:
-      "Interactive quiz application with dynamic questions, score tracking, and responsive UI for seamless user experience.",
-    tech: ["React", "JavaScript", "CSS"],
-    link: "https://prince-kumar-quiz-app.netlify.app/",
-  },
+  title: "Study Notion",
+  description:
+    "Developed a scalable full-stack ed-tech platform with JWT authentication, role-based access control, course management, video hosting via Cloudinary, Razorpay payment integration, and RESTful APIs with Redux state management.",
+  tech: [
+    "React",
+    "Redux",
+    "JavaScript",
+    "CSS",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "JWT",
+    "Razorpay",
+    "Cloudinary",
+    "REST API"
+  ],
+  link: "https://study-notion-prince.netlify.app/"
+},
 
  {
   title: "Weather Application",
@@ -94,13 +107,14 @@ export const TopProjects = [
   link: "https://rainbow-begonia-bd7fc3.netlify.app/",
 },
 
-  {
-  title: "Video Streaming Application",
-  description:
-    "Responsive video streaming platform with dynamic video rendering, component-based architecture, and optimized UI performance using React.",
-  tech: ["React", "JavaScript", "CSS", "Component Architecture"],
-  link: "https://prince-video-streaming.netlify.app/",
-},
+
+{
+    title: "Quiz Application",
+    description:
+      "Interactive quiz application with dynamic questions, score tracking, and responsive UI for seamless user experience.",
+    tech: ["React", "JavaScript", "CSS"],
+    link: "https://prince-kumar-quiz-app.netlify.app/",
+  },
 
 
 ];
@@ -146,6 +160,25 @@ export const socialLinks = {
 };
 
 export const Projects = [
+  {
+  title: "Study Notion",
+  description:
+    "Developed a scalable full-stack ed-tech platform with JWT authentication, role-based access control, course management, video hosting via Cloudinary, Razorpay payment integration, and RESTful APIs with Redux state management.",
+  tech: [
+    "React",
+    "Redux",
+    "JavaScript",
+    "CSS",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "JWT",
+    "Razorpay",
+    "Cloudinary",
+    "REST API"
+  ],
+  link: "https://study-notion-prince.netlify.app/"
+},
    {
     title: "Quiz Application",
     description:
