@@ -187,6 +187,24 @@ export const Projects = [
     link: "https://prince-kumar-quiz-app.netlify.app/",
   },
 
+  {
+  title: "Full-Stack Todo Application",
+  description:
+    "Developed a full-stack Todo application with secure JWT authentication, CRUD operations for task management, RESTful APIs, and responsive UI. Implemented global state management using Context API and ensured secure backend integration with MongoDB.",
+  tech: [
+    "React",
+    "Context API",
+    "JavaScript",
+    "CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "REST API"
+  ],
+  link: "https://todo-app-princekumar.netlify.app"
+},
+
  {
   title: "Weather Application",
   description:
